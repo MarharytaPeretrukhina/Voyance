@@ -1,0 +1,87 @@
+ul {
+  list-style-type: none;
+}
+
+.main-title {
+  color: #18181a;
+}
+
+.main-title .fine-print {
+  /* доробити */
+}
+
+.button-explore-more {
+  color: #18181a;
+  font-size: 18px;
+  border-radius: 100px;
+  border: 5px solid #fddb00;
+  background-color: #fddb00;
+  cursor: pointer;
+}
+
+.button-explore-more:hover {
+  color: #18181a;
+  font-size: 18px;
+  border-radius: 100px;
+  border: 5px solid #fddb00;
+  background-color: transparent;
+}
+
+.button-i-want-this-merch {
+  color: #18181a;
+  font-size: 18px;
+  border-radius: 100px;
+  border: 5px solid #fddb00;
+  background-color: #fddb00;
+  cursor: pointer;
+}
+
+.button-i-want-this-merch:hover {
+  color: #18181a;
+  font-size: 18px;
+  border-radius: 100px;
+  border: 5px solid #fddb00;
+  background-color: transparent;
+}
+
+.button-more-services {
+  color: #18181a;
+  font-size: 25px;
+  border-radius: 100px;
+  border: 5px solid #fddb00;
+  background-color: #fddb00;
+  cursor: pointer;
+}
+
+.button-more-services:hover {
+  color: #18181a;
+  font-size: 25px;
+  border-radius: 100px;
+  border: 5px solid #fddb00;
+  background-color: transparent;
+}
+
+.button-send {
+  color: #18181a;
+  font-size: 18px;
+  border-radius: 100px;
+  border: 5px solid #fddb00;
+  background-color: #fddb00;
+  cursor: pointer;
+}
+
+.button-send:hover {
+  color: #18181a;
+  font-size: 18px;
+  border-radius: 100px;
+  border: 5px solid #fddb00;
+  background-color: transparent;
+}
+
+.link {
+  color: #18181a;
+}
+
+.link:hover {
+  color: #e33e10;
+}
