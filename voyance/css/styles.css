@@ -1,21 +1,104 @@
+/*Font Metro Sans*/
+@font-face {
+  font-display: swap;
+  font-family: "Metro Sans";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/MetroSans-Light.woff2") format("woff2"),
+    url("../fonts/MetroSans-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Metro Sans";
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/MetroSans-Regular.woff2") format("woff2"),
+    url("../fonts/MetroSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Metro Sans";
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/MetroSans-Medium.woff2") format("woff2"),
+    url("../fonts/MetroSans-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Metro Sans";
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/MetroSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/MetroSans-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Metro Sans";
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/MetroSans-Bold.woff2") format("woff2"),
+    url("../fonts/MetroSans-Bold.woff") format("woff");
+}
+
+/*Font PP Editorial New*/
+@font-face {
+  font-family: "Editorial New";
+  font-weight: 200;
+  font-style: normal;
+  src: url("../fonts/EditorialNew-Thin.woff2") format("woff2"),
+    url("../fonts/EditorialNew-Thin.woff") format("woff");
+}
+
+:root {
+  --color-brand-yellow: #fddb00;
+  --color-text: #18181a;
+  --color-brand-orange: #e33e10;
+  --color-background: #f8f8fa§;
+}
+
 ul {
   list-style-type: none;
 }
 
-.main-title {
-  color: #18181a;
+body {
+  color: var(--color-text);
+  font-family: "Metro Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1;
+  width: 1600px;
 }
 
-.main-title .fine-print {
-  /* доробити */
+/*Links*/
+.link {
+  color: var(--color-text);
+  text-decoration: none;
+  font-family: "Metro Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
+.link:hover {
+  color: var(--color-brand-orange);
+}
+
+/*Button project section*/
 .button-explore-more {
-  color: #18181a;
+  color: var(--color-text);
+
   font-size: 18px;
   border-radius: 100px;
-  border: 5px solid #fddb00;
-  background-color: #fddb00;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 5px solid var(--color-brand-yellow);
+  background-color: var(--color-brand-yellow);
   cursor: pointer;
 }
 
@@ -23,65 +106,218 @@ ul {
   color: #18181a;
   font-size: 18px;
   border-radius: 100px;
-  border: 5px solid #fddb00;
+  border: 5px solid var(--color-brand-yellow);
   background-color: transparent;
 }
 
+/*Button merch section*/
 .button-i-want-this-merch {
-  color: #18181a;
+  color: var(--color-text);
   font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
   border-radius: 100px;
-  border: 5px solid #fddb00;
-  background-color: #fddb00;
+  border: 5px solid var(--color-brand-yellow);
+  background-color: var(--color-brand-yellow);
   cursor: pointer;
 }
 
 .button-i-want-this-merch:hover {
-  color: #18181a;
+  color: var(--color-text);
   font-size: 18px;
   border-radius: 100px;
-  border: 5px solid #fddb00;
+  border: 5px solid var(--color-brand-yellow);
   background-color: transparent;
 }
 
+/*Button services section*/
 .button-more-services {
-  color: #18181a;
+  color: var(--color-text);
   font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
   border-radius: 100px;
-  border: 5px solid #fddb00;
-  background-color: #fddb00;
+  border: 5px solid var(--color-brand-yellow);
+  background-color: var(--color-brand-yellow);
   cursor: pointer;
 }
 
 .button-more-services:hover {
-  color: #18181a;
+  color: var(--color-text);
   font-size: 25px;
   border-radius: 100px;
-  border: 5px solid #fddb00;
+  border: 5px solid var(--color-brand-yellow);
   background-color: transparent;
 }
 
+/*Button contact section*/
 .button-send {
-  color: #18181a;
+  color: var(--color-text);
   font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
   border-radius: 100px;
-  border: 5px solid #fddb00;
-  background-color: #fddb00;
+  border: 5px solid var(--color-brand-yellow);
+  background-color: var(--color-brand-yellow);
   cursor: pointer;
 }
 
 .button-send:hover {
-  color: #18181a;
+  color: var(--color-text);
   font-size: 18px;
   border-radius: 100px;
-  border: 5px solid #fddb00;
+  border: 5px solid var(--color-brand-yellow);
   background-color: transparent;
 }
 
-.link {
-  color: #18181a;
+/*Header*/
+.main-title {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: lowercase;
 }
 
-.link:hover {
-  color: #e33e10;
+.main-title .fine-print-greeting-section {
+  font-family: "Editorial New", sans-serif;
+  font-weight: 200;
+  line-height: 1;
+}
+.capitalize-print-greeting-section {
+  text-transform: capitalize;
+}
+
+.greeting-title {
+  font-family: "Metro Sans";
+  font-size: 150px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.greeting-title .fine-print-greeting-section {
+  font-family: "Editorial New", sans-serif;
+  font-weight: 200;
+  line-height: 1;
+}
+
+/*greeting section */
+.greeting-title {
+  color: var(--color-text);
+}
+
+.greeting-text {
+  color: var(--color-text);
+  font-family: "Metro Sans";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.greeting-text .greeting-text-bold {
+  font-weight: 700;
+}
+
+/*Projects section */
+.projects-title {
+  color: var(--color-brand-orange);
+  font-family: "Metro Sans";
+  font-size: 81px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.projects-item {
+  color: var(--color-text);
+  font-family: "Metro Sans";
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*brand mission section*/
+.brand-mission-title {
+  color: var(--color-text);
+  font-family: "Metro Sans";
+  font-size: 46px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.brand-mission-title .brand-mission-title-fine-print {
+  font-family: "Editorial New";
+  font-size: 46px;
+  font-weight: 100;
+  text-transform: lowercase;
+}
+
+/*about brand section */
+.about-brand-title {
+  color: var(--color-text);
+  font-family: "Metro Sans";
+  font-size: 150px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+.about-brand-title .about-brand-title-fine-print {
+  font-family: "Editorial New";
+  font-size: 150px;
+  font-weight: 100;
+  text-transform: lowercase;
+}
+
+.about-brand-text {
+  color: var(--color-text);
+  font-family: "Metro Sans";
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/*services-section*/
+.question-services-section {
+  color: var(--color-brand-orange);
+  font-family: "Editorial New";
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: lowercase;
+}
+.services-title {
+  color: var(--color-text);
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.services-items {
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/*billboard section*/
+
+/*contact us section */
+.contact-us-title {
+  color: var(--color-text);
+  font-size: 150px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+/*footer */
+.rights {
+  color: #18181a;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.mail {
+  text-decoration: none;
+  color: #18181a;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
 }

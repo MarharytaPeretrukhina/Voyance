@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Voyance</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -24,31 +24,33 @@
     </header>
 
     <main>
-      <section>
+      <section id="greeting-section">
         <p class="main-title">
           Welcome to the
-          <span class="fine-print"
-            >Wild World
-            <!--доробити --></span
-          >
-          of Voyance
+          <span class="fine-print-greeting-section"> Wild World </span> of
+          <span class="capitalize-print-greeting-section"> Voyance </span>
         </p>
-        <h1>we glad to see you here!</h1>
-        <p>
-          Hey there, fellow with thrill-seekers, dreamers, and all-around cool
-          cats! Ready embark on an epic adventure through the whimsical
-          wonderland of marketing magic? Well, you've to the right place!
+        <h1 class="greeting-title">
+          <span class="fine-print-greeting-section"> we </span> glad to see
+          <br />
+          <span class="fine-print-greeting-section"> you </span> here!
+        </h1>
+        <p class="greeting-text">
+          Hey there, fellow with thrill-seekers, dreamers, and all-around
+          <span class="greeting-text-bold"> cool cats! </span> Ready embark on
+          an epic adventure through the whimsical wonderland of marketing magic?
+          Well, you've to the right place!
         </p>
-        <p>
+        <p class="greeting-text">
           At Voyance, we're not your average marketing agency. Nope, we we are
           the rebels, the renegades, the ones who dare to dream bigger, laugh
           the little louder, like a we are a snow globe on Christmas morning for
-          you.s
+          you.
         </p>
       </section>
 
       <section id="Projects-sections">
-        <h3>Projects!</h3>
+        <h3 class="projects-title">Projects!</h3>
 
         <ul>
           <li>
@@ -57,8 +59,10 @@
                 src="./images/AndEveryone_ — Design & Art Direction Inspiration_ Photo (1)-topaz-enhance.jpg"
                 alt="Газета в руках людини"
               />
-              <p>de Blauwe Maandag Marketing & Visual Project</p>
-              <p>2021</p>
+              <div class="projects-item">
+                <p>de Blauwe Maandag Marketing & Visual Project</p>
+                <p>2021</p>
+              </div>
             </article>
           </li>
 
@@ -68,8 +72,10 @@
                 src="./images/Netflix Is a Joke_ The Festival-topaz-enhance.jpg"
                 alt="Жовтий бейджик"
               />
-              <p>Probably Brand visual analisys & style rebranding</p>
-              <p>2022</p>
+              <div class="projects-item">
+                <p>Probably Brand visual analisys & style rebranding</p>
+                <p>2022</p>
+              </div>
             </article>
           </li>
 
@@ -79,39 +85,60 @@
                 src="./images/Otherway’s grocery-inspired Weezy branding is decidedly untechy-topaz-enhance.jpg"
                 alt="Білий стенд"
               />
-              <p>Weezy Brand Creative Marketing Strategy</p>
-              <p>2020</p>
+              <div class="projects-item">
+                <p>Weezy Brand Creative Marketing Strategy</p>
+                <p>2020</p>
+              </div>
             </article>
           </li>
+
           <li>
             <article>
               <img
                 src="./images/PAMIPE - Brand Identity-topaz-enhance.svg"
                 alt="Людина піднімає коробки"
               />
-              <p>Pamipe Brand Visual Identity & Strategy, Marketing</p>
-              <p>2024</p>
+
+              <div class="projects-item">
+                <p>Pamipe Brand Visual Identity & Strategy, Marketing</p>
+                <p>2024</p>
+              </div>
             </article>
           </li>
         </ul>
         <button class="button-explore-more" type="button">Explore more</button>
       </section>
 
-      <section><p>Because Boring Marketing is So Last Season!</p></section>
+      <section id="brand-mission">
+        <p class="brand-mission-title">
+          Because
+          <span class="brand-mission-title-fine-print"> Boring Marketing </span>
+          is So Last
+          <span class="brand-mission-title-fine-print"> Season! </span>
+        </p>
+      </section>
 
-      <section>
-        <h1>we guess that marketing where the party is, right?</h1>
-        <p>
+      <section id="about-brand">
+        <h1 class="about-brand-title">
+          we guess that
+          <span class="about-brand-title-fine-print"> marketing </span> where
+          the party is,
+          <span class="about-brand-title-fine-print"> right? </span>
+        </h1>
+        <p class="about-brand-text">
           So, what exactly do we do here? Well, we're glad you asked! Picture
           this: a team of creative geniuses armed with nothing but good vibes,
           killer ideas, and a serious caffeine addiction.
         </p>
-        <p>
+        <p class="about-brand-text">
           Together, we craft marketing campaigns that are more than just ads –
           they're experiences. They're moments of pure magic that captivate,
           inspire, and leave you grinning like a Cheshire cat.
         </p>
         <img src="./images/people.jpg" alt="Люди" />
+      </section>
+
+      <section id="merch-section">
         <img src="./images/T-Shirt tcopy 2 3.jpg" alt="Футболка" />
         <img src="./images/Capg copy 2 1.jpg" alt="Кепка" />
         <button class="button-i-want-this-merch" type="button">
@@ -120,29 +147,30 @@
       </section>
 
       <section id="services-sections">
-        <p>what is that??</p>
-        <h2>our services!></h2>
-
-        <article><p>Creative Campaign Development</p></article>
-        <article><p>Brand Strategy Consulting</p></article>
-        <article><p>Social Media Management</p></article>
-        <article><p>Content Creation and Copywriting</p></article>
-        <article><p>Digital Marketing Campaigns</p></article>
-        <article><p>Search Engine Optimization (SEO)</p></article>
-        <article><p>Pay-Per-Click Advertising (PPC)</p></article>
-        <article><p>Email Marketing Campaigns</p></article>
-        <article><p>Influencer Marketing Partnerships</p></article>
+        <p class="question-services-section">what is that??</p>
+        <h2 class="services-title">our services!</h2>
+        <div class="services-items">
+          <article><p>Creative Campaign Development</p></article>
+          <article><p>Brand Strategy Consulting</p></article>
+          <article><p>Social Media Management</p></article>
+          <article><p>Content Creation and Copywriting</p></article>
+          <article><p>Digital Marketing Campaigns</p></article>
+          <article><p>Search Engine Optimization (SEO)</p></article>
+          <article><p>Pay-Per-Click Advertising (PPC)</p></article>
+          <article><p>Email Marketing Campaigns</p></article>
+          <article><p>Influencer Marketing Partnerships</p></article>
+        </div>
         <button class="button-more-services" type="button">
           more services
         </button>
       </section>
 
-      <section>
+      <section id="billboard-section">
         <img src="./images/Billboard Mockup cofpy 2 1.jpg" alt="Білборд" />
       </section>
-      <section id="contact us-sections">
-        <h1>contact us</h1>
 
+      <section id="contact-us-section">
+        <h1 class="contact-us-title">contact us!</h1>
         <button class="button-send" type="button">Send!</button>
         <img src="./images/contact us photo.jpg" alt="Кьюаркод" />
       </section>
@@ -155,21 +183,21 @@
         /></a>
 
         <ul>
-          <li><a href="#services-sections">Services!</a></li>
-          <li><a href="#">About us!</a></li>
-          <li><a href="#contact us-sections">Contact us!</a></li>
-          <li><a href="#">Join to the party!</a></li>
-          <li><a href="#Projects-sections">Projects!</a></li>
+          <li><a class="link" href="#services-sections">Services!</a></li>
+          <li><a class="link" href="#">About us!</a></li>
+          <li><a class="link" href="#contact us-sections">Contact us!</a></li>
+          <li><a class="link" href="#">Join to the party!</a></li>
+          <li><a class="link" href="#Projects-sections">Projects!</a></li>
         </ul>
       </nav>
       <address>
-        <a href="mailto:voyance@hello.com">voyance@hello.com</a>
+        <a class="mail" href="mailto:voyance@hello.com">voyance@hello.com</a>
         <ul>
           <li><a href="#">WhatsApp</a></li>
           <li><a href="#">X</a></li>
           <li><a href="#">instagram</a></li>
         </ul>
-        <p>&copy; smkngoddess 2023. All rights reserved.</p>
+        <p class="rights">&copy; smkngoddess 2023. All rights reserved.</p>
       </address>
     </footer>
   </body>
